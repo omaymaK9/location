@@ -42,13 +42,13 @@ const Housingcontent = () => {
               <img
                 className="arrow left-arrow"
                 src="./img/left-arrow.png"
-                alt="flèche vers la gauche"
+                alt="flèche gauche"
                 onClick={previousSlide}
               />
               <img
                 className="arrow right-arrow"
                 src="./img/right-arrow.png"
-                alt="flèche vers la droite"
+                alt="flèche droite"
                 onClick={nextSlide}
               />
               <span className="carrousel_slide-number">
